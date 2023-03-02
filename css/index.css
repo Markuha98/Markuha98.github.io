@@ -1,0 +1,92 @@
+header {
+  background-color: cadetblue;
+  width: 100%;
+  height: 100px;
+}
+.name {
+  color: black;
+  position: relative;
+  left: 45%;
+  top: 30px;
+  font: italic 1.2em "Fira Sans", serif;
+  font-size: xx-large;
+}
+.name:hover {
+  color: white;
+}
+.photo img {
+  padding-top: 20px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  transition: 1s;
+}
+.photo img:hover {
+  transform: scale(1.2);
+}
+.text {
+  display: inline-block;
+  margin-right: 30%;
+}
+body {
+  background-color: lightgray;
+}
+.bad {
+  text-decoration: line-through;
+}
+h2 {
+  font-size: 40px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.aboutMe {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-left: 10px;
+  text-align: center;
+}
+p:first-letter {
+  margin-left: 20px;
+}
+.aboutMe a {
+  text-decoration: none;
+}
+.aboutMe a:visited {
+  color: brown;
+}
+.info a {
+  text-decoration: none;
+  color: cadetblue;
+  line-height: 30px;
+  font-size: large;
+  position: relative;
+  left: 1000px;
+}
+.info a {
+  margin-right: 10px;
+}
+.inst {
+  text-decoration: none;
+  color: blue;
+}
+.teleg {
+  text-decoration: none;
+  color: blue;
+}
+footer {
+  background-color: cadetblue;
+  width: 100%;
+  height: 50px;
+}
+.top {
+  position: fixed;
+  top: 550px;
+  right: 20px;
+  text-decoration: none;
+}
+.tel {
+  text-decoration: none;
+  color: blue;
+}
+.mail {
+  text-decoration: none;
+  color: blue;
+}
